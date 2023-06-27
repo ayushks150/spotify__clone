@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel = "stylesheet", href = "style.css">
+</head>
+<body >
+
+    <nav>
+        <ul>
+            <li class = "brand"><img src = "logo1.png" height="30px"></li>
+            <li>Home</li>
+            <li>About</li>
+            <li><div class = "searchbox">
+                <input type="text" id = "searchbox" placeholder="     Search any song here">
+            </div></li>
+        </ul>
+        
+    </nav>
+
+    <div class="container">
+        <h2>BEST OF ALAN WALKER</h2>
+        <div class = "songs">
+            <img src="coverpage.jpeg"><span class="songname">&emsp;ALone Part 2</span><span class="right"><span class = "timestamp">2:34 <i id = "0" class="far songItemPlay fa-1x fa-play-circle"></i></span> </span> 
+        </div>
+        <div class = "songs">
+            <img src="covers/21.jpeg"><span class="songname">&emsp;FADED</span><span class="right"><span class = "timestamp">2:34 &nbsp;<i id = "1" class="far songItemPlay fa-1x fa-play-circle"></i></span> </span> 
+        </div> <div class = "songs">
+            <img src="covers/31.jpeg"><span class="songname">&emsp;SPECTRE</span><span class="right"><span class = "timestamp">2:34 &nbsp;<i id = "2" class="far songItemPlay fa-1x fa-play-circle"></i></span> </span> 
+        </div> <div class = "songs">
+            <img src="covers/41.jpeg"><span class="songname">&emsp;LILY</span><span class="right"><span class = "timestamp">2:34 &nbsp;<i id = "3" class="far songItemPlay fa-1x fa-play-circle"></i></span> </span> 
+        </div> <div class = "songs">
+            <img src="covers/51.jpeg"><span class="songname">&emsp;DARK SIDE</span><span class="right"><span class = "timestamp">2:34 &nbsp;<i id = "4" class="far songItemPlay fa-1x fa-play-circle"></i></span> </span> 
+        </div> <div class = "songs">
+            <img src="covers/61.jpeg"><span class="songname">&emsp;ON MY WAY</span><span class="right"><span class = "timestamp">2:34 &nbsp;<i id = "5" class="far songItemPlay fa-1x fa-play-circle"></i></span> </span> 
+        </div> <div class = "songs">
+            <img src="covers/71.jpeg"><span class="songname">&emsp;HEADLIGHTS </span><span class="right"><span class = "timestamp">2:34 &nbsp;<i id = "6" class="far songItemPlay fa-1x fa-play-circle"></i></span> </span> 
+        </div> <div class = "songs">
+            <img src="covers/81.jpeg"><span class="songname">&emsp;THE DRUM</span><span class="right"><span class = "timestamp">2:34 &nbsp;<i id = "7" class="far songItemPlay fa-1x fa-play-circle"></i></span> </span> 
+        </div> <div class = "songs">
+            <img src="covers/91.jpeg"><span class="songname">&emsp;SING ME TO SLEEP</span><span class="right"><span class = "timestamp">2:34 &nbsp;<i id = "8" class="far songItemPlay fa-1x fa-play-circle"></i></span> </span> 
+        </div>
+        
+    </div>
+    
+
+    <div class = "play">
+        <input type="range" name = "range" id = "myprogressbar"  min = "0" value = "0" max = "100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i> 
+        </div>
+        <div class = "songinfo"><img src= "animated-music-image-0216.gif" height = "20px" id = "gif">&nbsp;&nbsp;<span id = "masterSongName"> Alone Part 2 </span></div>
+    </div>
+    <script src="https://kit.fontawesome.com/4be06b4c63.js" crossorigin="anonymous"></script>
+    <script src = "script.js">
+
+    </script>    
+</body>
+</html>
